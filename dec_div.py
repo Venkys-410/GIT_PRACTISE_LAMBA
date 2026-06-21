@@ -11,4 +11,6 @@ def wrap(func):
 def div(a,b):
     return a/b
 
-print(div(18,6))
+x = div(18,6)
+
+print(x)
