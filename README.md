@@ -1,2 +1,2 @@
 ##Git Learning:
-    - Changes by Read2.
+  - Creating Merge Conflict in GitHub.
