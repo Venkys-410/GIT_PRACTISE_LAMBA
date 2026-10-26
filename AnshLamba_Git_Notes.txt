@@ -1,0 +1,16 @@
+Ansh Lamba Git Notes:
+
+Configuring User Mail and Name:
+
+1. git config --global user.mail "n.venkateshreddy410@gmail.com"
+   git config --global user.name "Venkys-410"
+   
+For Git to recognise a branch, it should have atleast one commit.
+
+.gitignore -- Add the names of the files to this file if we do not want to track them.
+
+Git by default do not track empty directories. To track them create a .gitkeep file inside the empty directory.
+
+git log --> To view the commit log
+git log --oneline --> To view each commit in one line.
+
