@@ -14,3 +14,14 @@ Git by default do not track empty directories. To track them create a .gitkeep f
 git log --> To view the commit log
 git log --oneline --> To view each commit in one line.
 
+git branch --> shows all the branches. * will point the current branch on which we are.
+
+git switch branchName --> switches to that branch
+ 
+git switch -c "branchName" --> create a new branch if it does not exits. Switches to it if exists. 
+
+git checkout "branchName" --> switches to that branch if exists.
+
+git checkout -b "branchName" --> create a new branch if it does not exits. Switches to it if exists. 
+
+
