@@ -25,3 +25,17 @@ git checkout "branchName" --> switches to that branch if exists.
 git checkout -b "branchName" --> create a new branch if it does not exits. Switches to it if exists. 
 
 
+
+
+Stashing:
+Command	                     Purpose
+git stash	                  Temporarily saves tracked file changes
+git stash -u	               Saves changes, including untracked files
+git stash list	               Lists all stashes
+git stash pop	               Applies the latest stash and removes it from the stash list
+git stash apply	            Applies the latest stash but keeps it in the stash list
+git stash apply "stash@{n}"   Applies the n th stash from the stack
+git stash drop	               Deletes the latest stash
+git stash drop "stash@{n}"    Deletes the nth stash in the stack
+git stash clear	            Deletes all stashes
+git stash show -p	            Shows the changes stored in the latest stash
