@@ -39,3 +39,10 @@ git stash drop	               Deletes the latest stash
 git stash drop "stash@{n}"    Deletes the nth stash in the stack
 git stash clear	            Deletes all stashes
 git stash show -p	            Shows the changes stored in the latest stash
+
+Command	                                 What it shows
+git fetch origin	                        Downloads remote updates
+git diff main origin/main	               Shows file-content differences
+git log main..origin/main --oneline	      Shows commits present remotely but missing locally
+git log origin/main..main --oneline	      Shows commits present locally but missing remotely
+git status -sb	                           Shows your current branch's ahead/behind status, if its tracking information is configured
