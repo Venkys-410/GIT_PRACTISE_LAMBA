@@ -12,3 +12,4 @@ print("###########--Generator Comprehension--#############")
 
 print(any( x>3 for x in outer()))  #here any stopped once the True value is found
 
+#This is the difference between List comp and Gencomp
