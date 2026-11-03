@@ -1,0 +1,14 @@
+def outer():
+    for i in range(10):
+        print("produce",i)
+        yield i
+
+print("###########--List Comprehension--#############")
+print(
+    any([ x>3 for x in outer()])
+)
+
+print("###########--Generator Comprehension--#############")
+
+print(any( x>3 for x in outer()))
+
